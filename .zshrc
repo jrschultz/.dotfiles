@@ -122,6 +122,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# ### CONFIG DEPENDENCIES ###
+# Zsh Must-Have Plugin
+# git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+# edit .zshrc to include plugins plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+# Install Powerlevel 10k
+# git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
 #Updated
 alias d="cd /home/jason/Downloads"
 alias x="exit"
