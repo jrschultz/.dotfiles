@@ -104,6 +104,9 @@ let g:netrw_browse_split = 3
 " ---------------------------------------------------------------------------
 " vim-plug
 " https://github.com/junegunn/vim-plug
+" Neovim Install:
+" sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+" 
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
