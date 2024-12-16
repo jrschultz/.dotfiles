@@ -100,6 +100,13 @@ set foldlevelstart=1
 " netrw and vim-vinegar
 let g:netrw_browse_split = 3
 
+" Set Mouse On
+set mouse=a
+
+" Set Spelling
+set spell spelllang=en_ca
+
+
 " Plugins, syntax, and colors
 " ---------------------------------------------------------------------------
 " vim-plug
