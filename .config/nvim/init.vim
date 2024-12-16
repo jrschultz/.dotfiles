@@ -10,6 +10,12 @@
 "set nocompatible
 
 " Search recursively downward from CWD; provides TAB completion for filenames
+
+" Remapping
+nnoremap j gj
+nnoremap k gk
+imap jk <Esc>
+
 " e.g., `:find vim* <TAB>`
 set path+=**
 
